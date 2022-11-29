@@ -1,0 +1,413 @@
+a {
+  text-decoration: none !important;
+  display: block;
+  color: black;
+}
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+input,
+select {
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  outline: none;
+}
+.navbar-nav {
+  font-weight: 600;
+}
+.navbar-nav .nav-item a {}
+
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-item {
+  transition: transform 2s ease, opacity 0.5s ease-out;
+}
+
+.carousel-caption h1 {
+  font-size: 4rem;
+}
+
+.carousel .carousel-item img {
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(60%);
+}
+
+
+
+.footer {
+  padding: 0.75rem;
+  font-size: 14px;
+}
+
+.footer a {
+  display: block;
+  color: black;
+}
+
+.footer h6 {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.search_section {
+  margin-top: -100px;
+  position: relative;
+  background-color: white;
+}
+
+.search_section input {
+  padding: 6px 15px;
+  width: 100%;
+}
+
+.search_section label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.search_section select {
+  padding: 6px 15px;
+
+  width: 100%;
+}
+
+.search_section button {
+  width: 100%;
+  border-radius: 2px;
+}
+
+.search_section .content {
+  padding: 50px;
+}
+
+@media screen and (max-width: 991px) {
+  .carousel-caption h1 {
+    font-size: 3rem;
+  }
+
+  .search_section {
+    background-color: transparent;
+  }
+
+  .search_section .content {
+    background-color: white;
+    padding: 10px;
+    margin: 0 10px;
+    margin-top: -200px;
+  }
+
+  .search_section button {
+    margin-top: 20px;
+  }
+}
+
+.navbar-toggler {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.whatsapp-mobile {
+  display: none;
+}
+@media screen and (max-width: 800px){
+  .blogs{
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  }
+  .whatsapp {
+    display: none;
+  }
+
+
+  .whatsapp-mobile {
+    display: block;
+    position: absolute;
+    top: 18px; 
+    right:80px
+    
+  }
+  .whatsapp-mobile .fa-whatsapp{ 
+    font-size: 30px;
+  }
+}
+
+.blogs {
+  margin: 50px 0 !important;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.blogs h3 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.blogs a img {
+  width: 100%;
+}
+
+.blogs .col-lg-3 {}
+
+.blogs a {
+  margin: 10px 0;
+  padding: 10px;
+  display: block;
+  border: 1px solid #ccc;
+}
+
+.blogs a:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.075) !important;
+}
+
+.blogs a:focus {
+  color: inherit;
+  text-decoration: none !important;
+}
+
+.blogs h4 {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 18px;
+  color: black;
+}
+
+.blog_detail {
+  padding: 10px;
+  padding-top: 80px !important;
+}
+
+.blog_detail img {
+  width: 100%;
+  border-radius: 3px;
+  max-height: 350px;
+}
+
+.blog_detail h1 {
+  font-size: 26px;
+  line-height: 35px;
+}
+
+.blog_detail h5 {
+  font-size: 20px;
+  background: #f1f5f8;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.blog_detail h6:before {
+  font-family: FontAwesome;
+  content: "\f017";
+  font-size: 18px;
+  -webkit-text-stroke: 0.1px #282c3f;
+  margin-right: 5px;
+}
+
+.blog_detail p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.blog_detail h6 {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+
+.header {
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.075) !important;
+  z-index: 999;
+  background-color: white;
+}
+
+.logo {
+  width: 150px;
+}
+
+.footer__Logo {
+  width: 100%;
+}
+
+/*.content_space {
+  padding-left: 50px;
+  padding-right: 50px;
+}*/
+
+.image-gallery {
+  /* Mobile first */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.contact__container {
+  background-color: #282c3f;
+  height: 350px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contact__container h3 {
+  font-size: 40px; 
+
+}
+.contact__container img {
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .contact__container {
+
+  }
+}
+
+.blogs_op {
+  margin: 50px 0 !important;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.blogs_op h3 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.blogs_op a img {
+  width: 100%;
+}
+
+
+
+.blogs_op a {
+  margin: 10px 0;
+  padding: 10px;
+  display: block;
+  
+}
+
+.blogs_op a:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.075) !important;
+}
+
+.blogs_op a:focus {
+  color: inherit;
+  text-decoration: none !important;
+}
+@media screen and (max-width: 800px){
+  .blogs_op{
+  padding-left: 2%;
+  padding-right: 2%;
+  
+  }
+}
+
+.call_now {
+  background-color: rgba(190, 194, 197, 0.405);
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2rem;
+}
+
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 10px;
+  border-radius: 50%;
+  color: white !important;
+} 
+
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #dd0a45;
+  color: white;
+}
+
+.header-whatsapp-link-btn {
+  font-family: Poppins-Bold;
+  position: relative;
+  display: block;
+  font-size: 14px;
+  float: right;
+  line-height: 15px;
+
+  text-transform: uppercase;
+
+}
+
+.header-whatsapp-link-btn a {
+  position: relative;
+  color: white;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 30px;
+  vertical-align: top;
+  background: #fff;
+  display: inline-block;
+  padding: 7px;
+  background-color: #25D366;
+}
+
+.header-whatsapp-link-btn a span {
+  position: relative;
+  display: inline-block;
+
+}
+.tripad{
+  width: auto;
+  height: 30px;
+}

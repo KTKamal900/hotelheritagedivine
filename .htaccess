@@ -1,0 +1,13 @@
+# BEGIN Website
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
+RewriteCond %{HTTP_HOST} ^www\.hotelheritagedivine\.com$
+RewriteRule ^/?$ "http\:\/\/hotelheritagedivine\.com\/" [R=301,L]
+</IfModule>
+
+# END Website
